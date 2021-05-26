@@ -15,7 +15,7 @@ ATCAATATCCACAATACCTGCAGATTCTACCGATTCGATTCAACTACCAGATTCGATTCAACGATTCGATTCAACTACCA
 
 ### [2]. Feature Generation:
 
-#### Proper explanation of features: 
+#### Binary Profile Feature: 
 Feature encoding is the backbone of any computational method. Binary profile features are simple and easy to extract, yet effective for the prediction of different functionalities in the multi-omics dataset. We generated Binary profiles for each peptide, by representing each amino acid by a vector of dimensions of 20. For instance, Alanine is replaced by a 20 size one hot vector which is [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]. A sequence of length L was represented by a vector of dimensions L × 20. This feature encoding process is depicted in Figure 1.
 ![Screenshot](BPF_process.png)
 
