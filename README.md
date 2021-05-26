@@ -38,19 +38,3 @@ user@machine:~$ python main.py -fa data.fasta -la Label.txt
 | ------- | ------------ |
 | -fa | Fasta file with .txt or .fasta format  |
 | -la | Label file with .txt extension  
-
-
-
-### References
-
-
-
-
-
-
-
-
-
-
-
-
