@@ -1,7 +1,7 @@
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = "static/model.h5py"
+model = "model.h5py"
 model = load_model(model)
 
 def calculate_performance(test_num, pred_y, labels):
