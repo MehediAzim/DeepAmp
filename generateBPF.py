@@ -1,8 +1,9 @@
 import numpy as np
 
+# chars = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
+
 def extract_feature(seq_temp):
     seq = seq_temp
-    # chars = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
     tem_vec =[]
     bpf = []
     for seq in seq_temp:

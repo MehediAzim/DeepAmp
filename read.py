@@ -32,8 +32,6 @@ def readLabels(fileName):
                 v.append((line.replace('\n', '')).replace(' ', ''))
         return v
 
-
-
 def fetchXY(FASTAs, Labels):
     X = readFASTAs(FASTAs)
     Y = readLabels(Labels)

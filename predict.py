@@ -46,7 +46,8 @@ def classifer(data,label,args):
     predicted_classes = predicted_classes.astype(int)
 
     acc,  sensitivity, specificity, MCC = calculate_performance(len(label), predicted_classes, label)
-    
+    print('Result Summary:')
+    print('------------------------------')
     print('accuracy',acc, end =", ")
     print('MCC',MCC, end =", ")
     print('sensitivity',sensitivity, end =", ")
