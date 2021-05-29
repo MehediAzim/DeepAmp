@@ -1,3 +1,5 @@
+import numpy as np
+
 def extract_feature(seq_temp):
     seq = seq_temp
     # chars = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
