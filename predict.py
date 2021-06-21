@@ -38,7 +38,7 @@ def calculate_performance(test_num, pred_y, labels):
     
     return acc, sensitivity, specificity, MCC
 
-def classifer(data,label,args):
+def classifier(data,label,args):
     
     # scores = model.evaluate([X_train_two[test_index,:,:]], y_train[test_index], verbose=0)
     probabilities = model.predict([data])

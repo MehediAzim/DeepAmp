@@ -6,19 +6,17 @@ import numpy as np
 
 def main(args):
     
-    X, Y = read.fetchXY(args.fasta, args.label)
+    sequences, label = read.fetchXY(args.fasta, args.label)
     print('\nDatasets fetching done.')
 
     ############################################################################
     print('Features extraction begins. Be patient! The machine will take some time.')
 
-    data = generateBPF.extract_feature(args, X, Y)
-
-    feature = data[:, :-1]
-    label = data[:, -1]
-    # print(T.shape)
+    feature = generateBPF.extract_feature(sequences)
+    print(feature.shape)
 
     predict.classifier(feature, label, args)
+    
 
 if __name__ == '__main__':
     ######################
