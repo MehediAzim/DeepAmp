@@ -26,7 +26,7 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(description='Feature Geneation Tool from DNA Sequences')
 
     p.add_argument('-fa', '--fasta', type=str, help='~/FASTA.txt', default='AMPylation_1.fsa')
-    p.add_argument('-la', '--label', type=str, help='~/Labels.txt', default='Label.txt')
+    p.add_argument('-la', '--label', type=str, help='~/Labels.txt', default='label.txt')
 
     args = p.parse_args()
 
