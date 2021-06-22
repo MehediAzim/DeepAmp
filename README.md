@@ -31,8 +31,6 @@ user@machine:~$ python main.py
 user@machine:~$ python main.py -fa data.fasta -la Label.txt
 ```
 
-**NB: You can use anyone from them.**
-
 **Table 3:**  command line element
 | Symbol  | Explanation  |
 | ------- | ------------ |
