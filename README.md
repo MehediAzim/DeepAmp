@@ -1,10 +1,10 @@
 #  DeepAmp: A Convolutional Neural Network based tool for predicting protein AMPylation sites from binary profile representation
 
-### Abstract
+<!-- ### Abstract
 DeepAmp: A Convolutional Neural Network based tool for
 predicting protein AMPylation sites from binary
 profile
-representation
+representation -->
 
 ### [1]. Read File:
 All the datasets file are in `FASTA` format which can be with `.txt` or `.fasta` extension. E.g. `anyName.txt` or  `anyName.fasta`. Please know more about the FASTA file format [by clicking here!](https://en.wikipedia.org/wiki/FASTA_format).
